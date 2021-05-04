@@ -1,4 +1,4 @@
-package com.joaoneto.wsclient.services.execptions;
+package com.joaoneto.wsclient.services.sexceptions;
 
 public class DatabaseException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

@@ -15,8 +15,10 @@ import org.springframework.transaction.annotation.Transactional;
 import com.joaoneto.wsclient.dto.ClientDTO;
 import com.joaoneto.wsclient.entities.Client;
 import com.joaoneto.wsclient.repositories.ClientRepository;
-import com.joaoneto.wsclient.services.execptions.DatabaseException;
-import com.joaoneto.wsclient.services.execptions.ResourceNotFoundException;
+import com.joaoneto.wsclient.services.sexceptions.DatabaseException;
+import com.joaoneto.wsclient.services.sexceptions.ResourceNotFoundException;
+
+
 
 @Service
 public class ClientService {

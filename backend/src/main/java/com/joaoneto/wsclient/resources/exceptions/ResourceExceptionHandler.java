@@ -9,8 +9,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.joaoneto.wsclient.services.execptions.DatabaseException;
-import com.joaoneto.wsclient.services.execptions.ResourceNotFoundException;
+import com.joaoneto.wsclient.services.sexceptions.DatabaseException;
+import com.joaoneto.wsclient.services.sexceptions.ResourceNotFoundException;
 
 @ControllerAdvice
 public class ResourceExceptionHandler {
